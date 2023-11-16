@@ -9,7 +9,7 @@ import {
   TableRow,
   Typography,
 } from "@mui/material";
-import { ChangeEvent, FC, useCallback, useEffect, useState } from "react";
+import { ChangeEvent, FC, useCallback, useState } from "react";
 import { Row, TableProps } from "./DataTable.interface";
 
 export const DataTable: FC<TableProps> = (props) => {
